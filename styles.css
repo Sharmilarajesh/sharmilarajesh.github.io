@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
   }
-  
   body {
     line-height: 1.6;
     background-color: #f9f9f9;
@@ -307,7 +306,7 @@ textarea {
 }
 
 .submit-button {
-  width:200px;
+  width:fit-content;
   margin-left: 10.5rem;
   padding: 10px 20px;
   font-size: 1.2rem;
