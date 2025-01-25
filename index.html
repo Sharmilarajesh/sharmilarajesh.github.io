@@ -1,136 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="header">
-      <nav>
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SKILLS</a></li>
-          <li><a href="#">PROJECTS</a></li>
-          <li><a href="#">CONTACT ME</a></li>
-        </ul>
-      </nav>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY Portfolio</title>
+  <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+         </ul>
+        <a href="#contact" class="contact-button" >Contact Me</a>
+    
+    </nav>
+  </header>
 
-    <div class="background">
-      <div class="body">
-        <h1>
-          Hello, <br />
-          I'm <span class="green">Sharmila</span><br />
-          <span class="web-developer">Web Developer</span>
-        </h1>
-        <p class="description">
-          Welcome to My Portfolio!<br />
-          Hi, I’m Sharmila, a student learning web development. I enjoy building
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1><span class="highlight">Hello, I'm</span><br> <span >Sharmila</span><br><span class="highlight">Front-End Developer</span></h1>
+      <p class="hero-desc">
+         I’m Sharmila, a student learning web development. I enjoy building
           websites and improving my skills. This portfolio showcases my projects
-          and growth. Thank you for visiting!
-        </p>
-        <button class="button-cv">DOWNLOAD CV</button>
-        <div class="image">
-          <img src="img2.png" alt="profile picture" />
+          and growth. Thank you for visiting!   </p>
+      <button class="hero-btn">Download CV</button>
+    </div>
+    <div class="hero-image">
+      <img src="img2.png" alt="Profile Picture">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <h1>About <span >Me</span></h1>
+      <p>
+        I'm a Computer Science student passionate about learning new technologies and 
+        creating practical solutions. I enjoy designing websites that are simple, creative, 
+        and user-friendly. I thrive on turning ideas into functional designs, focusing on clean code 
+        and user-centric experiences. </p>
+    </div>
+    <img src="img2.png" alt="About Me" class="about-image">
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>HTML</h3>
+        <div class="progress-bar">
+          <div class="progress html"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>CSS</h3>
+        <div class="progress-bar">
+          <div class="progress css"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <div class="progress-bar">
+          <div class="progress javascript"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Java</h3>
+        <div class="progress-bar">
+          <div class="progress java"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>MySQL</h3>
+        <div class="progress-bar">
+          <div class="progress mysql"></div>
         </div>
       </div>
     </div>
+  </section>
 
-    <section class="about">
-      <img src="img2.png" class="about-image" alt="about-image" />
-
-      <div class="about-content">
-        <h2>About Me</h2>
-        <p class="about-me">
-          Hi, I’m Sharmila, a Computer Science student passionate about web
-          development. I am learning technologies like HTML, CSS, and JavaScript
-          to create simple and functional websites. I have worked on a few
-          projects that helped me understand coding better. I’m always eager to
-          learn and improve my skills. Thank you for stopping by to
-          know more about me!
-        </p>
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="P_img.jpeg" alt="Project 1">
+        <h3>Portfolio Website</h3>
       </div>
-    </section>
-
-    <section class="skills">
-      <div class="skill-container">
-        <h1>My Skills</h1>
-        <li>
-          <h3>html</h3>
-          <span class="bar"><span class="html"></span></span>
-        </li>
-        <li>
-          <h3>css</h3>
-          <span class="bar"><span class="css"></span></span>
-        </li>
-        <li>
-          <h3>java</h3>
-          <span class="bar"><span class="java"></span></span>
-        </li>
-        <li>
-          <h3>c</h3>
-          <span class="bar"><span class="c"></span></span>
-        </li>
-        <li>
-          <h3>mysql</h3>
-          <span class="bar"><span class="mysql"></span></span>
-        </li>
+      <div class="project-card">
+        <img src="To-Do-img.png" alt="Project 2">
+        <h3>To-Do App</h3>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="project">
-      <h1>projects</h1>
-      <div class="project-cards">
-        <div class="card">
-          <img src="P_img.jpeg" alt="portfolio" />
-          <p>My Portfolio</p>
+  <!-- Contact Section -->
+  <section id="contact" class="contact-me">
+    <div class="contact-content">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out to me with any questions or just to say hello!</p>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Your Name" required />
+        </div><br>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Your Email" required />
+        </div><br>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" placeholder="Your Message" rows="6" required></textarea>
         </div>
-        <div class="card">
-          <img src="To-Do-img.png" alt="To-Do list" />
-          <p>TO-Do List</p>
-        </div>
-      </div>
-    </section>
+        <button type="submit" class="submit-button">Send</button>
+      </form>
+    </div>
+  </section>
+  
+  
 
-    <section class="contact-me">
-      <div class="contact-content">
-        <h2>Contact Me</h2>
-        <p>
-          Feel free to reach out to me with any questions or just to say hello!
-        </p>
-        <form class="contact-form">
-          <table>
-            <tr>
-              <td class="label">Name:</td>
-              <td><input type="text" placeholder="Your Name" required /></td>
-            </tr>
-            <tr>
-              <td class="label">Email:</td>
-              <td><input type="email" placeholder="Your Email" required /></td>
-            </tr>
-            <tr>
-              <td class="label">Message:</td>
-              <td>
-                <textarea
-                  placeholder="Your Message"
-                  rows="4"
-                  required
-                ></textarea>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2"><button type="submit">Send</button></td>
-            </tr>
-          </table>
-        </form>
-      </div>
-    </section>
-
-    <footer>
-      <p>@ 2024 Sharmila. "Strive for progress, not perfection"</p>
-    </footer>
-  </body>
+  <!-- Footer -->
+  <footer class="footer">
+      <div class="socials">
+        <a href="https://www.instagram.com/sharmila.2106"><i class="ri-instagram-line"></i></a>
+        <a href="https://www.linkedin.com/in/sharmila-r12"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://github.com/Sharmilarajesh"><i class="ri-github-fill"></i></a>
+    </div>
+    <p>© 2025 Sharmila | All Rights Reserved</p>
+  </footer>
+</body>
 </html>
