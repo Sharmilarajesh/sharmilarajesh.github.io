@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MY Portfolio</title>
+  <title>Sharmila R - Portfolio</title>
   <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -28,15 +28,21 @@
   <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <h1><span class="highlight">Hello, I'm</span><br> <span >Sharmila</span><br><span class="highlight">Front-End Developer</span></h1>
+      <h1><span class="highlight">Hello, I'm</span><br> <span >Sharmila R</span><br><span class="highlight">Software Developer</span></h1>
       <p class="hero-desc">
-         I’m Sharmila, a student learning web development. I enjoy building
-          websites and improving my skills. This portfolio showcases my projects
-          and growth. Thank you for visiting!   </p>
+        A passionate Computer Science student with strong skills in Java, Data Structures & Algorithms, and MERN
+        stack development. Experienced in building user-friendly applications. Seeking a software development role to
+        apply my skills, contribute to impactful projects, and grow in a dynamic tech environment.
+      </p>
+      <div class="hero-contact">
+        <p><i class="ri-mail-line"></i> sharmila210604@gmail.com</p>
+        <p><i class="ri-phone-line"></i> +91 86677 07366</p>
+        <p><i class="ri-map-pin-line"></i> Thiruvannamalai</p>
+      </div>
       <button class="hero-btn">Download CV</button>
     </div>
     <div class="hero-image">
-      <img src="img2.png" alt="Profile Picture">
+      <img src="public/sharmi.png" alt="Profile Picture">
     </div>
   </section>
 
@@ -46,49 +52,99 @@
       <h1>About <span >Me</span></h1>
       <p>
         I'm a Computer Science student passionate about learning new technologies and 
-        creating practical solutions. I enjoy designing websites that are simple, creative, 
-        and user-friendly. I thrive on turning ideas into functional designs, focusing on clean code 
-        and user-centric experiences. </p>
+        creating practical solutions. I enjoy designing applications that are simple, creative, 
+        and user-friendly. With expertise in Java, MERN stack, and Data Structures & Algorithms,
+        I thrive on turning ideas into functional solutions, focusing on clean code 
+        and user-centric experiences.
+      </p>
     </div>
-    <img src="img2.png" alt="About Me" class="about-image">
+    <img src="public/sharmi.png" alt="About Me" class="about-image">
   </section>
 
   <!-- Skills Section -->
   <section id="skills" class="skills">
     <h2>My Skills</h2>
     
-    <div class="skills-grid">
-      <div class="skill-card">
-        <h3>HTML</h3>
-        <div class="progress-bar">
-          <div class="progress html"></div>
+    <div class="skills-categories">
+      <div class="skill-category">
+        <h3>Programming Languages</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h4>Java</h4>
+            <div class="progress-bar">
+              <div class="progress java"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h4>C</h4>
+            <div class="progress-bar">
+              <div class="progress c"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h4>JavaScript</h4>
+            <div class="progress-bar">
+              <div class="progress javascript"></div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="skill-card">
-        <h3>CSS</h3>
-        <div class="progress-bar">
-          <div class="progress css"></div>
+
+      <div class="skill-category">
+        <h3>Frontend Technologies</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h4>HTML5</h4>
+            <div class="progress-bar">
+              <div class="progress html"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h4>CSS3</h4>
+            <div class="progress-bar">
+              <div class="progress css"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h4>React.js</h4>
+            <div class="progress-bar">
+              <div class="progress react"></div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="skill-card">
-        <h3>JavaScript</h3>
-        <div class="progress-bar">
-          <div class="progress javascript"></div>
+
+      <div class="skill-category">
+        <h3>Backend & Database</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h4>Node.js</h4>
+            <div class="progress-bar">
+              <div class="progress node"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h4>Express.js</h4>
+            <div class="progress-bar">
+              <div class="progress express"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h4>MongoDB</h4>
+            <div class="progress-bar">
+              <div class="progress mongodb"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h4>MySQL</h4>
+            <div class="progress-bar">
+              <div class="progress mysql"></div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="skill-card">
-        <h3>Java</h3>
-        <div class="progress-bar">
-          <div class="progress java"></div>
-        </div>
-      </div>
-      <div class="skill-card">
-        <h3>MySQL</h3>
-        <div class="progress-bar">
-          <div class="progress mysql"></div>
-        </div>
-      </div>
-    </div>
+
+     
   </section>
 
   <!-- Projects Section -->
@@ -96,12 +152,88 @@
     <h2>My Projects</h2>
     <div class="projects-grid">
       <div class="project-card">
-        <img src="P_img.jpeg" alt="Project 1">
-        <h3>Portfolio Website</h3>
+        <img src="public/cripto monitor.avif" alt="CryptoMonitor">
+        <div class="project-content">
+          <div class="project-header">
+            <h3>CryptoMonitor</h3>
+            <div class="project-links">
+              <a href="https://github.com/Sharmilarajesh" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a>
+              <a href="#" target="_blank" title="Live Demo"><i class="ri-external-link-line"></i></a>
+            </div>
+          </div>
+          <p class="tech-stack">React • CoinGecko API • CSS</p>
+          <p class="project-desc">Real-time cryptocurrency price tracker with search and multi-currency support.</p>
+        </div>
       </div>
+      
       <div class="project-card">
-        <img src="To-Do-img.png" alt="Project 2">
-        <h3>To-Do App</h3>
+        <img src="public/file bin.jpeg" alt="UploadHub">
+        <div class="project-content">
+          <div class="project-header">
+            <h3>UploadHub</h3>
+            <div class="project-links">
+              <a href="https://github.com/Sharmilarajesh" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+          <p class="tech-stack">React • Node.js • Express • MongoDB</p>
+          <p class="project-desc">File sharing platform with unique bin URLs and automatic expiry.</p>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <img src="public/Inventory_Management.png" alt="Inventory Management">
+        <div class="project-content">
+          <div class="project-header">
+            <h3>Inventory Management System</h3>
+            <div class="project-links">
+              <a href="https://github.com/Sharmilarajesh" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+          <p class="tech-stack">Java • MySQL • JDBC</p>
+          <p class="project-desc">Console-based inventory system with CRUD operations and DAO pattern.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="public/weather app.jpeg" alt="Weather App">
+        <div class="project-content">
+          <div class="project-header">
+            <h3>Weather App</h3>
+            <div class="project-links">
+              <a href="https://github.com/Sharmilarajesh/Weather_App" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+          <p class="tech-stack">JavaScript • Weather API • CSS</p>
+          <p class="project-desc">Live weather updates with location search and forecast display.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="public/clip url.png" alt="ClipUrl URL Shortener">
+        <div class="project-content">
+          <div class="project-header">
+            <h3>ClipUrl - URL Shortener</h3>
+            <div class="project-links">
+              <a href="https://github.com/Sharmilarajesh/ClipUrl-UrlShortener" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+          <p class="tech-stack">URL Shortening • JavaScript • HTML/CSS</p>
+          <p class="project-desc">URL shortening service with custom short links and click tracking.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="public/To-Do-img.png" alt="To-Do List">
+        <div class="project-content">
+          <div class="project-header">
+            <h3>To-Do List</h3>
+            <div class="project-links">
+              <a href="https://github.com/Sharmilarajesh/To-Do-List" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+          <p class="tech-stack">JavaScript • HTML • CSS</p>
+          <p class="project-desc">Task management app with add, edit, and delete functionality.</p>
+        </div>
       </div>
     </div>
   </section>
