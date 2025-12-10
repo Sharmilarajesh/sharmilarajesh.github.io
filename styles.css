@@ -120,6 +120,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 15px;
+    text-decoration: none;
   }
   
   .hero-btn:hover {
@@ -598,6 +599,23 @@ textarea {
       flex-direction: column;
       align-items: flex-start;
       gap: 10px;
+    }
+
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .nav-links {
+      gap: 1rem;
+    }
+
+    .nav-links a {
+      font-size: 12px;
+    }
+
+    .contact-button {
+      font-size: 12px;
+      padding: 4px 6px;
     }
   }
   
